@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lightning Talk Java</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_login">Log In</string>
+    <string name="error_invalid_username">Username is invalid</string>
+    <string name="error_invalid_password">Password is invalid</string>
+    <string name="error_login_failed">Login failed</string>
+    <string name="notes_title">My Notes</string>
+    <string name="notes_noNotes">No notes yet, click + to add one.</string>
+</resources>

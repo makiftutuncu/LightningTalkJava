@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/note_height"
+    android:layout_marginTop="@dimen/note_marginVertical"
+    android:layout_marginBottom="@dimen/note_marginVertical"
+    android:layout_marginLeft="@dimen/note_marginHorizontal"
+    android:layout_marginStart="@dimen/note_marginHorizontal"
+    android:layout_marginRight="@dimen/note_marginHorizontal"
+    android:layout_marginEnd="@dimen/note_marginHorizontal"
+    app:elevation="@dimen/note_elevation">
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/note_padding"
+        android:layout_gravity="center_vertical"
+        android:textSize="@dimen/note_size" />
+</android.support.v7.widget.CardView>
